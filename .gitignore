@@ -6,3 +6,6 @@
 build/
 
 .vscode
+windows/
+android/
+macos/

@@ -2,9 +2,9 @@
 
 import 'dart:typed_data';
 
-import 'package:zmodem/src/buffer.dart';
-import 'package:zmodem/src/consts.dart' as consts;
-import 'package:zmodem/src/zmodem_frame.dart';
+import 'buffer.dart';
+import 'consts.dart' as consts;
+import 'zmodem_frame.dart';
 
 class ZModemParser implements Iterator<ZModemPacket> {
   final _buffer = ChunkBuffer();

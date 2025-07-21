@@ -9,3 +9,8 @@ build/
 windows/
 android/
 macos/
+ios/
+.idea/
+linux/
+.DS_Store
+zmodem.iml
